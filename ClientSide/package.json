@@ -1,0 +1,8 @@
+{
+    "name": "web-document-viewer",
+    "dependencies": {
+        "devextreme-dist": "24.2-stable",
+        "@devexpress/analytics-core": "24.2-stable",
+        "devexpress-reporting": "24.2-stable"
+    }
+}

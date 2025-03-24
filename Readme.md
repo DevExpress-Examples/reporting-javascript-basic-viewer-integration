@@ -6,7 +6,7 @@
 <!-- default badges end -->
 # Reporting for JavaScript - How to Perform the Document Viewer Integration (with npm or Yarn package managers)
 
-This example demonstrates how to integrate the [HTML5 Document Viewer](https://docs.devexpress.com/XtraReports/17738) in a JavaScript application based on the server-side model.
+This example demonstrates how to integrate the [HTML5 Document Viewer](https://docs.devexpress.com/XtraReports/17738) in a JavaScript application.
 
 ![JavaScript Document Viewer Integration](images/screenshot.png)
 
@@ -15,26 +15,26 @@ This example demonstrates how to integrate the [HTML5 Document Viewer](https://d
 This example consists of two parts: 
 
 - A server (back-end) ASP.NET Core project that enables [cross-domain requests (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (Access-Control-Allow-Origin) and implements a custom web report storage.
-- Document Viewer front-end client JavaScript application.
+- A Document Viewer front-end  JavaScript application with the Web docuemnt Viewer control.
 
-Perform the following steps to run this example:
+To run this example, follow  the steps below:
 
-1. Open the back-end project solution (**CS\ServerSide.sln**) in Visual Studio and run the project.
-2. Navigate to the **JS\ClientSide** folder which is the client part's root folder.
-3. Open the console and run the following command:
-    - if you have the **npm** package manager:
+1. Run the *ServerApp* project.
+2. Navigate to the *ClientSide* folder and run one of the following commands to install packages" 
+    - If you have the **npm** package manager:
 
         ```npm install```
-    - if you have the **Yarn** package manager:
+		
+    - If you have the **Yarn** package manager:
         
         ```yarn install```    
 
-4. Host the client-side part ( **JS\ClientSide** folder ) on the web server. You can add a new website in the **Internet Information Services (IIS) Manager**.
+4. Host the client-side part (the *ClientSide* folder ) on the web server. You can add a new website in the **Internet Information Services (IIS) Manager**.
 5. Launch the browser and open the website created in the previous step.
 
 ## Documentation
 
-* [Basic Document Viewer Integration (with npm or Yarn package managers)](https://docs.devexpress.com/XtraReports/401546)
+* [Document Viewer Integration (with npm or Yarn package managers)](https://docs.devexpress.com/XtraReports/401546)
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
