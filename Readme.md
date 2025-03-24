@@ -4,9 +4,9 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-# Reporting for JavaScript - How to Perform the Document Viewer Integration (with npm or Yarn package managers)
+# Reporting for JavaScript - Integrate the Web Document Viewer (with npm or Yarn package managers)
 
-This example demonstrates how to integrate the [HTML5 Document Viewer](https://docs.devexpress.com/XtraReports/17738) in a JavaScript application.
+This example integrates the [HTML5 Document Viewer](https://docs.devexpress.com/XtraReports/17738) in a JavaScript application.
 
 ![JavaScript Document Viewer Integration](images/screenshot.png)
 
